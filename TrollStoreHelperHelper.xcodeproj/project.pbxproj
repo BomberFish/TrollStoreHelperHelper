@@ -14,6 +14,34 @@
 		D638A0B12B1530C70077CAC5 /* TrollStoreHelperHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0B02B1530C70077CAC5 /* TrollStoreHelperHelperTests.swift */; };
 		D638A0BB2B1530C70077CAC5 /* TrollStoreHelperHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0BA2B1530C70077CAC5 /* TrollStoreHelperHelperUITests.swift */; };
 		D638A0BD2B1530C70077CAC5 /* TrollStoreHelperHelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0BC2B1530C70077CAC5 /* TrollStoreHelperHelperUITestsLaunchTests.swift */; };
+		D638A0D62B1530FD0077CAC5 /* Wrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0CA2B1530FD0077CAC5 /* Wrappers.swift */; };
+		D638A0D72B1530FD0077CAC5 /* jit.m in Sources */ = {isa = PBXBuildFile; fileRef = D638A0CC2B1530FD0077CAC5 /* jit.m */; };
+		D638A0D82B1530FD0077CAC5 /* vm_unaligned_copy_switch_race.c in Sources */ = {isa = PBXBuildFile; fileRef = D638A0CD2B1530FD0077CAC5 /* vm_unaligned_copy_switch_race.c */; };
+		D638A0D92B1530FD0077CAC5 /* grant_full_disk_access.m in Sources */ = {isa = PBXBuildFile; fileRef = D638A0CE2B1530FD0077CAC5 /* grant_full_disk_access.m */; };
+		D638A0DA2B1530FD0077CAC5 /* helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = D638A0CF2B1530FD0077CAC5 /* helpers.m */; };
+		D638A0DB2B1530FD0077CAC5 /* MacDirtyCowSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0D42B1530FD0077CAC5 /* MacDirtyCowSwift.swift */; };
+		D638A0F52B1532130077CAC5 /* FM++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0DF2B1532130077CAC5 /* FM++.swift */; };
+		D638A0F62B1532130077CAC5 /* Color++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0E02B1532130077CAC5 /* Color++.swift */; };
+		D638A0F72B1532130077CAC5 /* CGSize++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0E12B1532130077CAC5 /* CGSize++.swift */; };
+		D638A0F82B1532130077CAC5 /* Haptic++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0E22B1532130077CAC5 /* Haptic++.swift */; };
+		D638A0F92B1532130077CAC5 /* Alert++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0E32B1532130077CAC5 /* Alert++.swift */; };
+		D638A0FA2B1532130077CAC5 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0E42B1532130077CAC5 /* ButtonStyles.swift */; };
+		D638A0FB2B1532130077CAC5 /* TextField++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0E52B1532130077CAC5 /* TextField++.swift */; };
+		D638A0FC2B1532130077CAC5 /* AVAudioPlayerNode++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0E62B1532130077CAC5 /* AVAudioPlayerNode++.swift */; };
+		D638A0FD2B1532130077CAC5 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0E82B1532130077CAC5 /* Generator.swift */; };
+		D638A0FE2B1532130077CAC5 /* MMCQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0E92B1532130077CAC5 /* MMCQ.swift */; };
+		D638A0FF2B1532130077CAC5 /* Quantizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0EA2B1532130077CAC5 /* Quantizer.swift */; };
+		D638A1002B1532130077CAC5 /* SVImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0EB2B1532130077CAC5 /* SVImage.swift */; };
+		D638A1012B1532130077CAC5 /* ColorConverters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0EC2B1532130077CAC5 /* ColorConverters.swift */; };
+		D638A1022B1532130077CAC5 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0ED2B1532130077CAC5 /* Builder.swift */; };
+		D638A1032B1532130077CAC5 /* Constants-Vibrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0EE2B1532130077CAC5 /* Constants-Vibrant.swift */; };
+		D638A1042B1532130077CAC5 /* Vbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0EF2B1532130077CAC5 /* Vbox.swift */; };
+		D638A1052B1532130077CAC5 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0F02B1532130077CAC5 /* Util.swift */; };
+		D638A1062B1532130077CAC5 /* VibrantColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0F12B1532130077CAC5 /* VibrantColors.swift */; };
+		D638A1072B1532130077CAC5 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0F22B1532130077CAC5 /* Filter.swift */; };
+		D638A1082B1532130077CAC5 /* Vibrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0F32B1532130077CAC5 /* Vibrant.swift */; };
+		D638A1092B1532130077CAC5 /* View++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638A0F42B1532130077CAC5 /* View++.swift */; };
+		D638A10B2B1535FA0077CAC5 /* PersistenceHelper_Embedded in Resources */ = {isa = PBXBuildFile; fileRef = D638A10A2B1535F90077CAC5 /* PersistenceHelper_Embedded */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +72,39 @@
 		D638A0B62B1530C70077CAC5 /* TrollStoreHelperHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrollStoreHelperHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D638A0BA2B1530C70077CAC5 /* TrollStoreHelperHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrollStoreHelperHelperUITests.swift; sourceTree = "<group>"; };
 		D638A0BC2B1530C70077CAC5 /* TrollStoreHelperHelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrollStoreHelperHelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D638A0CA2B1530FD0077CAC5 /* Wrappers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wrappers.swift; sourceTree = "<group>"; };
+		D638A0CC2B1530FD0077CAC5 /* jit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jit.m; sourceTree = "<group>"; };
+		D638A0CD2B1530FD0077CAC5 /* vm_unaligned_copy_switch_race.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vm_unaligned_copy_switch_race.c; sourceTree = "<group>"; };
+		D638A0CE2B1530FD0077CAC5 /* grant_full_disk_access.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = grant_full_disk_access.m; sourceTree = "<group>"; };
+		D638A0CF2B1530FD0077CAC5 /* helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helpers.m; sourceTree = "<group>"; };
+		D638A0D02B1530FD0077CAC5 /* jit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.h; sourceTree = "<group>"; };
+		D638A0D12B1530FD0077CAC5 /* vm_unaligned_copy_switch_race.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vm_unaligned_copy_switch_race.h; sourceTree = "<group>"; };
+		D638A0D22B1530FD0077CAC5 /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		D638A0D32B1530FD0077CAC5 /* grant_full_disk_access.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = grant_full_disk_access.h; sourceTree = "<group>"; };
+		D638A0D42B1530FD0077CAC5 /* MacDirtyCowSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacDirtyCowSwift.swift; sourceTree = "<group>"; };
+		D638A0D52B1530FD0077CAC5 /* MacDirtyCowSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MacDirtyCowSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		D638A0DF2B1532130077CAC5 /* FM++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FM++.swift"; sourceTree = "<group>"; };
+		D638A0E02B1532130077CAC5 /* Color++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color++.swift"; sourceTree = "<group>"; };
+		D638A0E12B1532130077CAC5 /* CGSize++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize++.swift"; sourceTree = "<group>"; };
+		D638A0E22B1532130077CAC5 /* Haptic++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Haptic++.swift"; sourceTree = "<group>"; };
+		D638A0E32B1532130077CAC5 /* Alert++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alert++.swift"; sourceTree = "<group>"; };
+		D638A0E42B1532130077CAC5 /* ButtonStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		D638A0E52B1532130077CAC5 /* TextField++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField++.swift"; sourceTree = "<group>"; };
+		D638A0E62B1532130077CAC5 /* AVAudioPlayerNode++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVAudioPlayerNode++.swift"; sourceTree = "<group>"; };
+		D638A0E82B1532130077CAC5 /* Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		D638A0E92B1532130077CAC5 /* MMCQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCQ.swift; sourceTree = "<group>"; };
+		D638A0EA2B1532130077CAC5 /* Quantizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quantizer.swift; sourceTree = "<group>"; };
+		D638A0EB2B1532130077CAC5 /* SVImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVImage.swift; sourceTree = "<group>"; };
+		D638A0EC2B1532130077CAC5 /* ColorConverters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConverters.swift; sourceTree = "<group>"; };
+		D638A0ED2B1532130077CAC5 /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		D638A0EE2B1532130077CAC5 /* Constants-Vibrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constants-Vibrant.swift"; sourceTree = "<group>"; };
+		D638A0EF2B1532130077CAC5 /* Vbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vbox.swift; sourceTree = "<group>"; };
+		D638A0F02B1532130077CAC5 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		D638A0F12B1532130077CAC5 /* VibrantColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VibrantColors.swift; sourceTree = "<group>"; };
+		D638A0F22B1532130077CAC5 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		D638A0F32B1532130077CAC5 /* Vibrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vibrant.swift; sourceTree = "<group>"; };
+		D638A0F42B1532130077CAC5 /* View++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View++.swift"; sourceTree = "<group>"; };
+		D638A10A2B1535F90077CAC5 /* PersistenceHelper_Embedded */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = PersistenceHelper_Embedded; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +155,11 @@
 		D638A09E2B1530C30077CAC5 /* TrollStoreHelperHelper */ = {
 			isa = PBXGroup;
 			children = (
+				D638A10A2B1535F90077CAC5 /* PersistenceHelper_Embedded */,
 				D638A09F2B1530C30077CAC5 /* TrollStoreHelperHelperApp.swift */,
+				D638A0DE2B1532130077CAC5 /* Extensions */,
 				D638A0A12B1530C30077CAC5 /* ContentView.swift */,
+				D638A0C92B1530FD0077CAC5 /* MacDirtyCowSwift */,
 				D638A0A32B1530C60077CAC5 /* Assets.xcassets */,
 				D638A0A52B1530C60077CAC5 /* Preview Content */,
 			);
@@ -125,6 +189,68 @@
 				D638A0BC2B1530C70077CAC5 /* TrollStoreHelperHelperUITestsLaunchTests.swift */,
 			);
 			path = TrollStoreHelperHelperUITests;
+			sourceTree = "<group>";
+		};
+		D638A0C92B1530FD0077CAC5 /* MacDirtyCowSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D638A0CA2B1530FD0077CAC5 /* Wrappers.swift */,
+				D638A0CB2B1530FD0077CAC5 /* Exploit */,
+				D638A0D42B1530FD0077CAC5 /* MacDirtyCowSwift.swift */,
+				D638A0D52B1530FD0077CAC5 /* MacDirtyCowSwift-Bridging-Header.h */,
+			);
+			path = MacDirtyCowSwift;
+			sourceTree = "<group>";
+		};
+		D638A0CB2B1530FD0077CAC5 /* Exploit */ = {
+			isa = PBXGroup;
+			children = (
+				D638A0CC2B1530FD0077CAC5 /* jit.m */,
+				D638A0CD2B1530FD0077CAC5 /* vm_unaligned_copy_switch_race.c */,
+				D638A0CE2B1530FD0077CAC5 /* grant_full_disk_access.m */,
+				D638A0CF2B1530FD0077CAC5 /* helpers.m */,
+				D638A0D02B1530FD0077CAC5 /* jit.h */,
+				D638A0D12B1530FD0077CAC5 /* vm_unaligned_copy_switch_race.h */,
+				D638A0D22B1530FD0077CAC5 /* helpers.h */,
+				D638A0D32B1530FD0077CAC5 /* grant_full_disk_access.h */,
+			);
+			path = Exploit;
+			sourceTree = "<group>";
+		};
+		D638A0DE2B1532130077CAC5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D638A0DF2B1532130077CAC5 /* FM++.swift */,
+				D638A0E02B1532130077CAC5 /* Color++.swift */,
+				D638A0E12B1532130077CAC5 /* CGSize++.swift */,
+				D638A0E22B1532130077CAC5 /* Haptic++.swift */,
+				D638A0E32B1532130077CAC5 /* Alert++.swift */,
+				D638A0E42B1532130077CAC5 /* ButtonStyles.swift */,
+				D638A0E52B1532130077CAC5 /* TextField++.swift */,
+				D638A0E62B1532130077CAC5 /* AVAudioPlayerNode++.swift */,
+				D638A0E72B1532130077CAC5 /* Swift-Vibrant */,
+				D638A0F42B1532130077CAC5 /* View++.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D638A0E72B1532130077CAC5 /* Swift-Vibrant */ = {
+			isa = PBXGroup;
+			children = (
+				D638A0E82B1532130077CAC5 /* Generator.swift */,
+				D638A0E92B1532130077CAC5 /* MMCQ.swift */,
+				D638A0EA2B1532130077CAC5 /* Quantizer.swift */,
+				D638A0EB2B1532130077CAC5 /* SVImage.swift */,
+				D638A0EC2B1532130077CAC5 /* ColorConverters.swift */,
+				D638A0ED2B1532130077CAC5 /* Builder.swift */,
+				D638A0EE2B1532130077CAC5 /* Constants-Vibrant.swift */,
+				D638A0EF2B1532130077CAC5 /* Vbox.swift */,
+				D638A0F02B1532130077CAC5 /* Util.swift */,
+				D638A0F12B1532130077CAC5 /* VibrantColors.swift */,
+				D638A0F22B1532130077CAC5 /* Filter.swift */,
+				D638A0F32B1532130077CAC5 /* Vibrant.swift */,
+			);
+			path = "Swift-Vibrant";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +359,7 @@
 			files = (
 				D638A0A72B1530C60077CAC5 /* Preview Assets.xcassets in Resources */,
 				D638A0A42B1530C60077CAC5 /* Assets.xcassets in Resources */,
+				D638A10B2B1535FA0077CAC5 /* PersistenceHelper_Embedded in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +384,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D638A0F82B1532130077CAC5 /* Haptic++.swift in Sources */,
 				D638A0A22B1530C30077CAC5 /* ContentView.swift in Sources */,
+				D638A0D82B1530FD0077CAC5 /* vm_unaligned_copy_switch_race.c in Sources */,
+				D638A1022B1532130077CAC5 /* Builder.swift in Sources */,
+				D638A0D92B1530FD0077CAC5 /* grant_full_disk_access.m in Sources */,
 				D638A0A02B1530C30077CAC5 /* TrollStoreHelperHelperApp.swift in Sources */,
+				D638A0DB2B1530FD0077CAC5 /* MacDirtyCowSwift.swift in Sources */,
+				D638A0FC2B1532130077CAC5 /* AVAudioPlayerNode++.swift in Sources */,
+				D638A0FF2B1532130077CAC5 /* Quantizer.swift in Sources */,
+				D638A0D62B1530FD0077CAC5 /* Wrappers.swift in Sources */,
+				D638A0F72B1532130077CAC5 /* CGSize++.swift in Sources */,
+				D638A0D72B1530FD0077CAC5 /* jit.m in Sources */,
+				D638A1032B1532130077CAC5 /* Constants-Vibrant.swift in Sources */,
+				D638A0FD2B1532130077CAC5 /* Generator.swift in Sources */,
+				D638A1082B1532130077CAC5 /* Vibrant.swift in Sources */,
+				D638A1002B1532130077CAC5 /* SVImage.swift in Sources */,
+				D638A0DA2B1530FD0077CAC5 /* helpers.m in Sources */,
+				D638A0F52B1532130077CAC5 /* FM++.swift in Sources */,
+				D638A0FA2B1532130077CAC5 /* ButtonStyles.swift in Sources */,
+				D638A1062B1532130077CAC5 /* VibrantColors.swift in Sources */,
+				D638A0F92B1532130077CAC5 /* Alert++.swift in Sources */,
+				D638A1012B1532130077CAC5 /* ColorConverters.swift in Sources */,
+				D638A1042B1532130077CAC5 /* Vbox.swift in Sources */,
+				D638A0FB2B1532130077CAC5 /* TextField++.swift in Sources */,
+				D638A1052B1532130077CAC5 /* Util.swift in Sources */,
+				D638A0F62B1532130077CAC5 /* Color++.swift in Sources */,
+				D638A1092B1532130077CAC5 /* View++.swift in Sources */,
+				D638A1072B1532130077CAC5 /* Filter.swift in Sources */,
+				D638A0FE2B1532130077CAC5 /* MMCQ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +579,15 @@
 				DEVELOPMENT_TEAM = 8JKVMYCRTJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TSHelperHelper;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "what did you think retard";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,6 +596,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.TrollStoreHelperHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TrollStoreHelperHelper/MacDirtyCowSwift/MacDirtyCowSwift-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,11 +613,15 @@
 				DEVELOPMENT_TEAM = 8JKVMYCRTJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TSHelperHelper;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "what did you think retard";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +630,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.TrollStoreHelperHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TrollStoreHelperHelper/MacDirtyCowSwift/MacDirtyCowSwift-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
