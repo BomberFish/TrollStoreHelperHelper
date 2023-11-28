@@ -38,21 +38,22 @@ struct ContentView: View {
                         Label("By BomberFish\nVery much in-development. Don't complain if shit breaks.", systemImage: "info")
                     }
                 })
-                Section(content: {}, footer: {
-                    if tipsURL != nil {
-                        Label("Detected Tips.app: \(tipsURL?.appendingPathComponent("Tips.app").path ?? "None")", systemImage: "info")
-                    }
-                })
-                Section(content: {}, footer: {
-                    if helperURL != nil {
-                        Label("Detected PersistenceHelper: \(helperURL?.path ?? "None")", systemImage: "info")
-                    }
-                })
+//                Section(content: {}, footer: {
+//                    if tipsURL != nil {
+//                        Label("Detected Tips.app: \(tipsURL?.appendingPathComponent("Tips.app").path ?? "None")", systemImage: "info")
+//                    }
+//                })
+//                Section(content: {}, footer: {
+//                    if helperURL != nil {
+//                        Label("Detected PersistenceHelper: \(helperURL?.path ?? "None")", systemImage: "info")
+//                    }
+//                })
             }
             .navigationTitle("TrollStoreHelperHelper")
             .onAppear {
                 UIApplication.shared.alert(title: "Loading", body: "Not praying to RNGesus", withButton: false)
                 helperURL = Bundle.main.url(forResource: "PersistenceHelper_Embedded", withExtension: nil)
+                sleep(1)
                 grant_full_disk_access { error in
                     if error != nil {
                         Haptic.shared.notify(.error)
@@ -61,8 +62,10 @@ struct ContentView: View {
                     } else {
                         Haptic.shared.notify(.success)
                         do {
+                            sleep(1)
                             UIApplication.shared.changeBody("Finding victim...")
                             tipsURL = try getBundleDir(bundleID: "com.apple.tips")
+                            sleep(1)
                             UIApplication.shared.dismissAlert(animated: true)
                         } catch {
                             UIApplication.shared.changeTitle("Access Error")
